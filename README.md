@@ -1,7 +1,11 @@
 # React-webpack
 Item = React + webpack
 
-## 0.0.1v
+## 0.0.2 v
+*   用class生成一个App组件
+*   学习`constructor`方法
+
+## 0.0.1 v
 *   配置`React + webpack`开发环境
 *   配置`webpack-dev-server` + `react-hot-loader`
     *   react-hot-loader 可以在页面不刷新的情况下渲染页面内容

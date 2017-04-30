@@ -1,10 +1,20 @@
 import React from 'react';
 import styles from './App.css';
 
-const App = () => (
-    <div className={styles.app}>
-        <h2>Hello, World!</h2>
-    </div>
-);
 
-export default App;
+export class App extends React.PureComponent {
+    constructor(props) {
+        super(props);
+        this.state = {
+            text: 'Hello, world',
+        };
+    }
+
+    render() {
+        return (
+            <div className={styles.app}>
+                <h2>{this.state.text}</h2>
+            </div>
+        );
+    }
+}
