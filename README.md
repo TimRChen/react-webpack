@@ -3,7 +3,8 @@ Item = React + webpack
 
 ## 0.0.2 v
 *   用class生成一个App组件
-*   学习`constructor`方法
+    *   `constructor`方法
+    *   `import export eg..`
 
 ## 0.0.1 v
 *   配置`React + webpack`开发环境
