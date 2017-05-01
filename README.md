@@ -1,8 +1,10 @@
 # React-webpack
-Item = React + webpack
+Detail-Study = React + webpack
 
 ## 0.0.3 v
-*   `lifecycle`—— componetDidMount & componentWillUnmount
+*   `lifecycle` —— componetDidMount & componentWillUnmount
+*   The only place where you can assign `this.state` is the **constructor**.
+*   翻译官方文档`state and lifecycle` http://www.cnblogs.com/tim100/p/6792149.html
 
 ## 0.0.2 v
 *   用class生成一个App组件
