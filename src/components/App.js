@@ -7,14 +7,30 @@ export default class App extends React.PureComponent {
         // super 子类继承父类this对象
         super(props);
         this.state = {
-            text: 'Hello, world',
+            date: new Date()
         };
+    }
+
+    componentDidMount() {
+        this.timeID = setInterval(() => {
+            return this.tick();
+        }, 1000);
+    }
+
+    componentWillUnmount() {
+        clearInterval(this.timeID);
+    }
+
+    tick() {
+        this.setState({
+            date: new Date()
+        });
     }
 
     render() {
         return (
             <div className={styles.app}>
-                <h2>{this.state.text}</h2>
+                <h2>{this.state.date.toLocaleTimeString()}</h2>
             </div>
         );
     }

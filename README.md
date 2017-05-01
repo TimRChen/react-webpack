@@ -1,6 +1,9 @@
 # React-webpack
 Item = React + webpack
 
+## 0.0.3 v
+*   `lifecycle`—— componetDidMount & componentWillUnmount
+
 ## 0.0.2 v
 *   用class生成一个App组件
     *   `constructor`方法
