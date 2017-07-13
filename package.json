@@ -4,7 +4,8 @@
   "description": "Item = React + webpack",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --progress --profile --colors --open ",
+    "dev": "webpack-dev-server --progress --profile --colors --open",
+    "start": "webpack-dev-server --progress --profile --colors --open",
     "build": "webpack --progress --profile --colors",
     "getBabelVersion": "babel --version"
   },
