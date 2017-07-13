@@ -17,6 +17,12 @@ $ npm start
 $ npm run build
 ```
 
+
+> Todos: 1.考虑重构整个webpack打包的逻辑，参考vue-cli提供的方案，分为两块：webpack.pro.conf.js & webpack.dev.conf.js
+
+## 0.0.2 v
+*   加入分块 & 压缩插件
+
 ## 0.0.1 v
 *   配置`React + webpack`开发环境
 *   配置`webpack-dev-server` + `react-hot-loader`
@@ -24,12 +30,10 @@ $ npm run build
     *   webpack-dev-server 可以实时监听文件更改情况，达到热重启效果
     *   配置文档 ——> https://webpack.js.org/guides/hmr-react/
 
-## 0.0.2 v
+## 实例
 *   用class生成一个App组件
     *   `constructor`方法
     *   `import export eg..`
-
-## 0.0.3 v
 *   `lifecycle` —— componetDidMount & componentWillUnmount
 *   The only place where you can assign `this.state` is the **constructor**.
 *   翻译官方文档`state and lifecycle` http://www.cnblogs.com/tim100/p/6792149.html
