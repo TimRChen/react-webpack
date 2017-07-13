@@ -1,8 +1,11 @@
-const {resolve} = require('path');
-const webpack = require('webpack');
+const path = require('path');
+var webpack = require('webpack');
+var ExtractTextPlugin = require('extract-text-webpack-plugin');
+var OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
+
 
 module.exports = {
-    context: resolve(__dirname, 'src'),
+    context: path.resolve(__dirname, 'src'),
 
     entry: [
         'react-hot-loader/patch',
@@ -23,19 +26,19 @@ module.exports = {
         filename: 'bundle.js',
         // the output bundle
 
-        path: resolve(__dirname, 'dist'),
+        path: path.resolve(__dirname, 'dist'),
 
         publicPath: '/'
         // necessary for HMR to know where to load the hot update chunks
     },
 
-    devtool: 'inline-source-map',
+    devtool: 'source-map',
 
     devServer: {
         hot: true,
         // enable HMR on the server
 
-        contentBase: resolve(__dirname, 'dist'),
+        contentBase: path.resolve(__dirname, 'dist'),
         // match the output path
 
         publicPath: '/'
@@ -57,6 +60,31 @@ module.exports = {
     },
 
     plugins: [
+        // 构建优化插件
+        new webpack.optimize.CommonsChunkPlugin({
+            name: 'vendor',
+            filename: 'vendor.js',
+        }),
+        new webpack.optimize.UglifyJsPlugin({
+            compress: {
+                warnings: false
+            }
+        }),
+        // new ExtractTextPlugin({
+        //     filename: 'build.min.css',
+        // }),
+        // Compress extracted CSS. We are using this plugin so that possible
+        // duplicated CSS from different components can be deduped.
+        new OptimizeCssAssetsPlugin({
+            cssProcessor: require('cssnano'),
+            cssProcessorOptions: {
+            mergeLonghand: false,
+            discardComments: { removeAll: true }
+            // more options:
+            // http://cssnano.co/guides/optimisations/
+            },
+            canPrint: true
+        }),
         new webpack.HotModuleReplacementPlugin(),
         // enable HMR globally
 

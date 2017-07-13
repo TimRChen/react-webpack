@@ -2,6 +2,8 @@
 可以用于快速搭建React项目
 特点:
 *   可在页面不刷新的情况下更新页面
+*   在保证样式功能完整的情况下大幅度压缩js、css代码
+*   生成 SourceMap，方便 debug
 
 ## how to start
 ```bash
@@ -10,6 +12,9 @@ $ npm install
 
 # serve with hot reload at loaclhost:8080
 $ npm start
+
+# build 
+$ npm run build
 ```
 
 ## 0.0.1 v
