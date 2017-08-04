@@ -1,7 +1,7 @@
 # React-webpack
-可以用于快速搭建React项目
+用于快速搭建React项目
 特点:
-*   可在页面不刷新的情况下更新页面
+*   可在页面不刷新的情况下更新页面 => 使用HMR
 *   在保证样式功能完整的情况下大幅度压缩js、css代码
 *   生成 SourceMap，方便 debug
 
@@ -10,15 +10,21 @@
 # install dependencies
 $ npm install
 
-# serve with hot reload at loaclhost:8080
+# serve with hot reload at loaclhost:3000
 $ npm start
 
-# build 
+# dev at loaclhost:3000
+$ npm run dev
+
+# build file in dist
 $ npm run build
 ```
 
+## 0.0.3 v
+*   优化项目主页
+*   webpack 加入文件加载器
+    *   加入file-loader & url-loader
 
-> Todos: 1.考虑重构整个webpack打包的逻辑，参考vue-cli提供的方案，分为两块：webpack.pro.conf.js & webpack.dev.conf.js
 
 ## 0.0.2 v
 *   加入分块 & 压缩插件

@@ -1,6 +1,19 @@
+* {
+    background-color: rgb(26, 26, 26);
+}
+
 .app {
-    text-size-adjust: none;
-    font-family: helvetica, arial, sans-serif;
-    line-height: 200%;
-    padding: 6px 20px 30px;
+    /* flex 水平垂直居中 从上向下布局  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    color: #fff;
+}
+
+.header-log {
+    width: 200px;
+    height: 200px;
+    background: url(../../static/img/logo.jpeg) no-repeat center center;
+    background-size: cover;
 }
