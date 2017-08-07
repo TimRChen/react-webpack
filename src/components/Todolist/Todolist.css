@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+.panel {
+    max-width: 600px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#title {
+    margin-top: 5%;
+    text-align: center;
+}
+
+.container {
+    padding-bottom: 10px;
+}
+
+.input-container form {
+    position: relative;
+    margin: 5% 5% 0 5%;
+}
+
+
+.input-container .input {
+    outline: none;
+    color: #fff;
+    width: 88%;
+    height: 28px;
+    font-size: 20px;
+    border: none;
+    border-bottom: 2px solid #e2e2e2;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.input-container .submit {
+    font-size: 18px;
+    width: 12%;
+    height: 26px;
+    color: #fff;
+    border: 1px solid #222222;
+}
+
+.input-container .submit:hover {
+    color: rgb(0, 216, 255);
+}
+
+.list {
+    margin: 2% 5% 0 5%;
+}
+
+.control {
+    margin: 2% 5% 0 5%;
+}
+
+.control .clear {
+    float: right;
+    font-size: 14px;
+    width: 15%;
+    height: 30px;
+    color: #fff;
+    border: 1px solid #222222;
+}
+
+.control .clear:hover {
+    color: rgb(0, 216, 255);
+}
+
+.list ul li {
+    border-bottom: 1px solid #e2e2e2;
+    margin-bottom: 10px;
+}
+
+.list ul li button {
+    float: right;
+    width: 12%;
+    height: 26px;
+    background: #fff;
+    border: 1px solid #e2e2e2;
+}
+.list ul li button:hover {
+    background: red;
+    color: #fff;
+}

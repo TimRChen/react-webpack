@@ -5,6 +5,9 @@
 *   在保证样式功能完整的情况下大幅度压缩js、css代码
 *   生成 SourceMap，方便 debug
 
+## 项目首页
+![TimRChen](https://raw.githubusercontent.com/TimRChen/photoRepo/master/react-webpack/2017-08-07%2016_47_10.gif)
+
 ## how to start
 ```bash
 # install dependencies
@@ -20,11 +23,16 @@ $ npm run dev
 $ npm run build
 ```
 
+## 0.0.4 v
+*   加入演示案例 todolist
+*   将主页Logo格式替换为svg
+*   替换整体背景色
+
+
 ## 0.0.3 v
 *   优化项目主页
 *   webpack 加入文件加载器
     *   加入file-loader & url-loader
-
 
 ## 0.0.2 v
 *   加入分块 & 压缩插件

@@ -1,6 +1,6 @@
 {
   "name": "react-item",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "description": "Item = React + webpack",
   "main": "index.js",
   "scripts": {
@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/TimRChen/React-webpack#readme",
   "dependencies": {
+    "immutability-helper": "^2.3.0",
     "react": "^15.5.4",
     "react-dom": "^15.5.4"
   },

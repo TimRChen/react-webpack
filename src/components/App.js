@@ -1,6 +1,8 @@
 import React from 'react';
 import styles from './App.css';
 
+import Hello from './Hello';
+
 //  extends 继承React.PureComponent 所有属性和方法
 export default class App extends React.PureComponent {
     constructor(props) {
@@ -16,6 +18,9 @@ export default class App extends React.PureComponent {
                 </div>
                 <div className="content">
                     <h1>Welcome to React item</h1>
+                </div>
+                <div className="example">
+                    <Hello></Hello>
                 </div>
             </div>
         );

@@ -1,5 +1,5 @@
 * {
-    background-color: rgb(26, 26, 26);
+    background-color: rgb(34, 34, 34);
 }
 
 .app {
@@ -14,6 +14,10 @@
 .header-log {
     width: 200px;
     height: 200px;
-    background: url(../../static/img/logo.jpeg) no-repeat center center;
+    background: url(../../static/img/logo.svg) no-repeat center center;
     background-size: cover;
+}
+
+.example {
+    width: 1200px;
 }
