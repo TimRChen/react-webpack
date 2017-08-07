@@ -5,7 +5,7 @@
 *   在保证样式功能完整的情况下大幅度压缩js、css代码
 *   生成 SourceMap，方便 debug
 
-## 项目首页
+## 项目首页
 ![TimRChen](https://raw.githubusercontent.com/TimRChen/photoRepo/master/react-webpack/2017-08-07%2016_47_10.gif)
 
 ## how to start
