@@ -23,6 +23,10 @@ $ npm run dev
 $ npm run build
 ```
 
+## 0.0.5 v
+*   加入 React-router 最新版本
+*   引入双向绑定输入案例
+
 ## 0.0.4 v
 *   加入演示案例 todolist
 *   将主页Logo格式替换为svg

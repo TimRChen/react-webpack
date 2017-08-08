@@ -19,5 +19,13 @@
 }
 
 .example {
-    width: 1200px;
+    margin-top: 20px;
+}
+
+.example-header::after {
+    position: absolute;
+    content: "click here =>";
+    color: rgb(0, 216, 255);
+    margin-top: 56px;
+    margin-left: -320px;
 }
