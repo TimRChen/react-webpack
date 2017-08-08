@@ -6,7 +6,7 @@
 *   生成 SourceMap，方便 debug
 
 ## 项目首页
-![TimRChen](https://raw.githubusercontent.com/TimRChen/photoRepo/master/react-webpack/2017-08-07%2016_47_10.gif)
+![TimRChen](https://raw.githubusercontent.com/TimRChen/photoRepo/master/react-webpack/2017-08-08_6_08_57.png)
 
 ## how to start
 ```bash
@@ -57,3 +57,4 @@ $ npm run build
 *   翻译官方文档`state and lifecycle` http://www.cnblogs.com/tim100/p/6792149.html
 
 
+![TimRChen](https://raw.githubusercontent.com/TimRChen/photoRepo/master/react-webpack/2017-08-07%2016_47_10.gif)
