@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './App.css';
 
-import Hello from './Hello';
+import RouteConf from '../routes/index';
 
 //  extends 继承React.PureComponent 所有属性和方法
 export default class App extends React.PureComponent {
@@ -20,7 +20,8 @@ export default class App extends React.PureComponent {
                     <h1>Welcome to React item</h1>
                 </div>
                 <div className="example">
-                    <Hello></Hello>
+                    <h2 className="example-header">React-router</h2>
+                    <RouteConf></RouteConf>
                 </div>
             </div>
         );

@@ -8,8 +8,8 @@ button {
     cursor: pointer;
 }
 
-.panel {
-    max-width: 600px;
+.todolist-panel {
+    min-width: 600px;
     margin-right: auto;
     margin-left: auto;
 }

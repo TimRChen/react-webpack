@@ -86,7 +86,7 @@ export default class Todolist extends React.PureComponent {
 
     render() {
         return (
-            <div className="panel">
+            <div className="todolist-panel">
                 <h2 id="title">React-Todos</h2>
                 <div className="container">
                     <Input
