@@ -8,20 +8,8 @@
 ## 项目首页
 ![TimRChen](https://raw.githubusercontent.com/TimRChen/photoRepo/master/react-webpack/2017-08-08_6_08_57.png)
 
-## how to start
-```bash
-# install dependencies
-$ npm install
-
-# serve with hot reload at loaclhost:3000
-$ npm start
-
-# dev at loaclhost:3000
-$ npm run dev
-
-# build file in dist
-$ npm run build
-```
+## 0.0.6 v
+*   更新依赖包版本
 
 ## 0.0.5 v
 *   加入 React-router 最新版本
@@ -47,6 +35,23 @@ $ npm run build
     *   react-hot-loader 可以在页面不刷新的情况下渲染页面内容
     *   webpack-dev-server 可以实时监听文件更改情况，达到热重启效果
     *   配置文档 ——> https://webpack.js.org/guides/hmr-react/
+
+
+## how to start
+```bash
+# install dependencies
+$ npm install
+
+# serve with hot reload at loaclhost:3000
+$ npm start
+
+# dev at loaclhost:3000
+$ npm run dev
+
+# build file in dist
+$ npm run build
+```
+
 
 ## 实例
 *   用class生成一个App组件
